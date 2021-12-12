@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import { SectionRight, Img } from "./HiddenImgStyles";
 
+const img = "./images/206_keopc_logo.jpg";
 const BackgroundAnimation = () => (
-  <div>
-    <svg
+  <SectionRight>
+    <Img src={img} alt="knockemout" />
+    {/* <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
@@ -358,8 +361,8 @@ const BackgroundAnimation = () => (
           <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
         </linearGradient>
       </defs>
-    </svg>
-  </div>
+    </svg> */}
+  </SectionRight>
 );
 
 export default BackgroundAnimation;
