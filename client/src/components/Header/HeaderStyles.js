@@ -127,5 +127,5 @@ export const SocialIcons = styled.a`
 `;
 
 export const Span = styled.span`
-  font-sized: 4rem;
+  font-size: 2.5rem;
 `;

@@ -1,3 +1,7 @@
+import { ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 import Acomplishments from "../components/Acomplishments/Acomplishments";
 import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
 import Hero from "../components/Hero/Hero";
@@ -8,10 +12,11 @@ import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import Header from "./../components/Header/Header";
 
-const Home = () => {
+function Home() {
   return (
     <Layout>
       {/* <Header /> */}
+      {/* <ToastContainer /> */}
       <Section grid>
         <Hero />
         <BgAnimation />
@@ -22,6 +27,6 @@ const Home = () => {
       <Acomplishments />
     </Layout>
   );
-};
+}
 
 export default Home;

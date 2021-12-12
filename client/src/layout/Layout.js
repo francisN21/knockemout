@@ -5,7 +5,7 @@ import Header from "../components/Header/Header";
 // import NavHeader from "../components/NavBar/NavHeader";
 import { Container } from "./LayoutStyles";
 
-export const Layout = ({ children }) => {
+export function Layout({ children }) {
   return (
     <Container>
       {/* <NavHeader /> */}
@@ -14,4 +14,4 @@ export const Layout = ({ children }) => {
       <Footer />
     </Container>
   );
-};
+}
