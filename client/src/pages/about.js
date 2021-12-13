@@ -1,9 +1,10 @@
 import { Layout } from "../layout/Layout";
+import About from "../components/About/About";
 
 function about() {
   return (
     <Layout>
-      <span>about me</span>
+      <About />
     </Layout>
   );
 }
