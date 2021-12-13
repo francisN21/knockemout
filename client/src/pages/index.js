@@ -15,9 +15,9 @@ function Home() {
         <BgAnimation />
       </Section>
       <Projects />
-      <Technologies />
+      {/* <Technologies />
       <Timeline />
-      <Acomplishments />
+      <Acomplishments /> */}
     </Layout>
   );
 }

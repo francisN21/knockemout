@@ -1,9 +1,9 @@
 import { Layout } from "../layout/Layout";
-
+import QuoteForm from "../components/Form/QuoteForm";
 function quote() {
   return (
     <Layout>
-      <span>quote</span>
+      <QuoteForm />
     </Layout>
   );
 }
