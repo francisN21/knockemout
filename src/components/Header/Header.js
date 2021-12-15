@@ -68,7 +68,7 @@ function Header() {
 
         <SocialIcons
           onClick={
-            (() => navigator.clipboard.writeText("(800) 733-9478"), notify)
+            (() => navigator.clipboard.writeText("(800)733-9478"), notify)
           }
         >
           <AiFillPhone size="3rem" />

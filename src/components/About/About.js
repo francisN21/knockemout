@@ -1,7 +1,7 @@
 import React from "react";
 
 import Button from "../../styles/GlobalComponents/Button";
-import AboutImg from "./AboutStyles";
+import { Imga } from "./AboutStyles";
 import {
   Section,
   SectionText,
@@ -21,6 +21,8 @@ import {
   Img,
 } from "../Projects/ProjectsStyles";
 
+import Timeline from "../TimeLine/TimeLine";
+
 const About = () => {
   return (
     <Section>
@@ -28,7 +30,8 @@ const About = () => {
         KnockEmOut <br />
         Pest Control
       </SectionTitle>
-      <AboutImg src="./images/KEOTeam.jpg" />
+      <Timeline></Timeline>
+      <br />
       <Tag>
         We are a local, family-owned & operated business. With over 30 years of
         field experience, we are confident we can take care of your pest control
