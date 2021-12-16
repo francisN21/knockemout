@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FormWrapper } from "./QuoteFormStyles";
+import { FormWrapper, Input, Select, TextArea } from "./QuoteFormStyles";
 import Button from "../../styles/GlobalComponents/Button";
 import {
   Section,
@@ -41,11 +41,11 @@ const QuoteForm = () => {
       </SectionText>
       <FormWrapper className="new-event-f" onSubmit={submit}>
         <label htmlFor="name">Name: </label>
-        <input type="text" name="name" onChange={onChange} />
+        <Input type="text" name="name" onChange={onChange} />
         <label htmlFor="special">Email: </label>
-        <input type="text" name="special" onChange={onChange} />
+        <Input type="text" name="special" onChange={onChange} />
         <label htmlFor="category">Select Service: </label>
-        <select name="category" id="category" onChange={onChange}>
+        <Select name="category" id="category" onChange={onChange}>
           <option value="n/a">Please Select one</option>
           <option value="anime">Pest</option>
           <option value="beach">Rats</option>
@@ -53,15 +53,15 @@ const QuoteForm = () => {
           <option value="car">Termite</option>
           <option value="default">Bee</option>
           <option value="disco">Other</option>
-        </select>
+        </Select>
         <label htmlFor="description">Description: </label>
-        <textarea type="text" name="description" onChange={onChange}></textarea>
+        <TextArea type="text" name="description" onChange={onChange}></TextArea>
         <label htmlFor="time">Time: </label>
-        <input type="time" name="time" onChange={onChange} />
+        <Input type="time" name="time" onChange={onChange} />
         {/* <label htmlFor="private">Private: </label>
       <input type="checkbox" name="private" value="true" onChange={onChange} /> */}
         <label htmlFor="date">Date: </label>
-        <input type="date" name="date" onChange={onChange} />
+        <Input type="date" name="date" onChange={onChange} />
         <Hr />
         <Button type="submit" className="btn btn-primary create-event">
           Request Quote

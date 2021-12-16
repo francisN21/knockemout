@@ -22,6 +22,7 @@ const Hero = () => {
           environmentally safe green pest control systems to exterminate your
           problem pests effectively and efficiently.
         </SectionText>
+        <br />
         <Button onClick={knockEm}>
           Knock'Em <img src="./images/GlovesIco.png" alt="KEO" size="3rem" />
         </Button>
